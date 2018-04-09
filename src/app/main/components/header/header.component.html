@@ -1,0 +1,22 @@
+<header class="header"
+  fxLayout="column"
+  fxLayoutAlign="left start">
+  <div class="header-container"
+    fxLayout="column"
+    fxLayout.gt-md="row"
+    fxLayoutAlign="center center">
+    <nav class="header-menu" fxLayoutAlign="center center">
+      <ul class="nav-menu" fxLayout="row">
+        <li class="nav-menu__item" *ngFor="let navItem of navItems">
+          <a class="nav-menu__link"
+            [routerLink]="[navItem.path]"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}"
+            (click)=sendPageName(navItem.name)>
+            {{ navItem.name | uppercase }}</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+

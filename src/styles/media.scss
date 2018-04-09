@@ -1,0 +1,11 @@
+
+@function rem($px) {
+  @return $px / 16px + 0rem;
+}
+
+@mixin home-index-gradient {
+  background-image: -moz-linear-gradient( 150deg, rgb(66,111,255) 10%, rgb(103,46,249) 90%);
+  background-image: -webkit-linear-gradient( 150deg, rgb(66,111,255) 10%, rgb(103,46,249) 90%);
+  background-image: -ms-linear-gradient( 150deg, rgb(66,111,255) 10%, rgb(103,46,249) 90%);
+  background-image: linear-gradient( 150deg, rgb(66,111,255) 10%, rgb(103,46,249) 90%);
+}
