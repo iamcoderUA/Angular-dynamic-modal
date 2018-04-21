@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { ModalBoxComponent } from './main/core/modal-box/modal-box.component';
-import { AppComponent } from './app.component';
-import { CoreModule } from './main/core/core.module';
+import { CoreModule } from './core/core.module';
 import { MainModule } from './main/main.module';
+import { ModalBoxComponent } from './core/modal-box/modal-box.component';
+
+import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 

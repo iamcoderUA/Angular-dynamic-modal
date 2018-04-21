@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 
-import { BlogRoutingModule } from './blog-routing.module';
 import { BlogComponent } from './blog.component';
+import { BlogRoutingModule } from './blog-routing.module';
+
 import { IndexSectionModule } from './index-section/index-section.module';
 
 @NgModule({

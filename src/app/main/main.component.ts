@@ -1,6 +1,7 @@
-import {OnInit, Component, ViewChild, ViewContainerRef} from '@angular/core';
-import {ModalBoxComponent} from './core/modal-box/modal-box.component';
-import { ModalService } from './core/services/modal.service';
+import { OnInit, Component, ViewChild, ViewContainerRef } from '@angular/core';
+
+import { ModalBoxComponent } from '../core/modal-box/modal-box.component';
+import { ModalService } from '../core/services/modal.service';
 
 
 @Component({

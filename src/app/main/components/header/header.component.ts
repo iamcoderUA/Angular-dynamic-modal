@@ -1,7 +1,8 @@
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
-import { Component, ViewChild, ElementRef, OnDestroy, OnInit } from '@angular/core';
-import { SharedModule } from './../../shared/shared.module';
-import { ModalService } from './../../core/services/modal.service';
+
+import { SharedModule } from './../../../shared/shared.module';
+import { ModalService } from './../../../core/services/modal.service';
 
 @Component({
   selector: 'app-header',

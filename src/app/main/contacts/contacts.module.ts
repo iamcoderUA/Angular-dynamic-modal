@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ContactsRoutingModule } from './contacts-routing.module';
 
 import { ContactsComponent } from './contacts.component';
+import { ContactsRoutingModule } from './contacts-routing.module';
+
 import { IndexSectionModule } from './index-section/index-section.module';
 
 

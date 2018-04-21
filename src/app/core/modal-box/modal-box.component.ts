@@ -1,5 +1,6 @@
-import { Component, ViewChild, ElementRef, } from '@angular/core';
-import {SharedModule} from '../../shared/shared.module';
+import { Component } from '@angular/core';
+
+import { SharedModule } from '../../shared/shared.module';
 
 @Component({
   selector: 'app-modal-box',
@@ -9,7 +10,7 @@ import {SharedModule} from '../../shared/shared.module';
 export class ModalBoxComponent {
 
   textProp: string;
-  isActive = false;
+  isActive: Boolean = false;
 
   constructor(
   ) { }
